@@ -14,6 +14,7 @@ The application allows users to type questions and receive AI-generated response
 Python| Streamlit| OpenAI Python SDK| python-dotenv (Environment variable management)
 
 # 📂 Project Structure
+```text
 chatbot/
 │
 ├── app.py # Streamlit web app
