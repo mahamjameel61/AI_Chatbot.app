@@ -20,18 +20,17 @@ user_input = st.chat_input("Enter your question")
 
 # When user clicks button
  if user_input:
-     st.subheader("Your Question:")
-     st.write(user_input)
-     
-     with st.spinner("Thinking..."):
-         response = client.responses.create(
-             model="gpt-5-nano",
-             input=user_input,
-            instructions="you are a helpful assistant that provides concise answers to questions"
-         )
+  st.subheader("Your Question:")
+  st.write(user_input)
+  with st.spinner("Thinking..."):
+       response = client.responses.create(
+        model="gpt-5-nano",
+        input=user_input,
+        instructions="you are a helpful assistant that provides concise answers to questions"
+       )
 
-    # Display result
-    st.subheader("AI Response:")
-    st.write(response.output_text)
+  # Display result
+   st.subheader("AI Response:")
+   st.write(response.output_text)
 
   
