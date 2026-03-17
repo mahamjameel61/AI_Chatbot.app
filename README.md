@@ -34,20 +34,20 @@ chatbot/
 ```
 ## ⚙️ Requirements & Installation
 #### Clone or Download the Project 
-git clone https://github.com/mahamjameel61/AI_Chatbot.app 
-cd chatbot
+- git clone https://github.com/mahamjameel61/AI_Chatbot.app 
+- cd chatbot
 #### Install Required Libraries
-pip install openai – Connects the application with the LLM API
-pip install python-dotenv – Loads API keys securely from the .env file
-pip install streamlit – Creates the web interface for the chatbot
+- pip install openai – Connects the application with the LLM API
+- pip install python-dotenv – Loads API keys securely from the .env file
+- pip install streamlit – Creates the web interface for the chatbot
 #### Add Your API Key in .env file 
-Create a .env file in the project folder and add your OpenAI API key (secret key):
-OPENAI_API_KEY="your_api_key_here" 
-You can create an API key from: https://platform.openai.com/api-keys
+- Create a .env file in the project folder and add your OpenAI API key (secret key):
+- OPENAI_API_KEY="your_api_key_here" 
+- You can create an API key from: https://platform.openai.com/api-keys
 #### Run the Application
-streamlit run app.py
-After running the command, the application will automatically open in your browser:
-http://localhost:8501
+- streamlit run app.py
+- After running the command, the application will automatically open in your browser:
+- http://localhost:8501
 
 ### Tech stack
 Python| Streamlit| OpenAI Python SDK| python-dotenv (Environment variable management)
